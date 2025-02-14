@@ -20,6 +20,7 @@ var wordList = [
   "cielo",
   "amado",
   "amada",
+  "guapo",
 ];
 var guessList = [];
 guessList = guessList.concat(wordList);
@@ -122,7 +123,7 @@ function processInput(e) {
     Swal.fire({
       title: "¡Lo siento! la palabra era " + "'" + word + "'",
       html: "Como premio consuelo una caja de chocolates estará llegando a tu casa. <br>pero como no acertaste tu castigo será enviarme un audio cantando.<br>¡Lo espero con ansias!💕",
-      imageUrl: "/images/karaoke.png",
+      imageUrl: "images/karaoke.png",
       imageAlt: "Custom image",
       padding: "3em",
       customClass: {
@@ -186,7 +187,7 @@ function update() {
       Swal.fire({
         title: "¡Felicidades, acertaste!",
         html: "Como premio una caja de chocolates estará llegando a tu casa.<br>a demás de tener una cita viendo la película que gustes💕",
-        imageUrl: "/images/cinema.png",
+        imageUrl: "images/cinema.png",
         imageAlt: "Custom image",
         padding: "3em",
         backdrop: `
